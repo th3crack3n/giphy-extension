@@ -1,0 +1,14 @@
+{
+  "name": "Gif Generator",
+  "description": "Generates a random gif based on selected text on page",
+  "version": "1.0.0",
+  "browser_action": {
+      "default_icon": "icon.png"
+  },
+  "permissions": ["contextMenus"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
